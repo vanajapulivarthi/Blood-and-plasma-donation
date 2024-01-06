@@ -1,0 +1,33 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+#title{color: white;
+     text-align: center;}
+body{
+    background-color: red;
+    background-image: url("https://wallpapercave.com/wp/wp4323467.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login{
+    float:left;
+ width: 280px;
+ top:50%;
+ left:50%;transform: translate(-50%, -50%);position:absolute;
+ color:white;
+}
+
+
+.textbox{
+    width:100%;font-size:20px; padding:8px 0px;overflow:hidden;margin:8px 0;
+    border-bottom:1px solid blue ;
+}
+.textbox input{
+    border:none; outline:none ;background:none;color: white;
+    
+}
+.textbox i{
+    width:26px;float:left;text-align: center  ;
+}
+.login button{
+    font-size:18px;
+    font-weight:bold;margin:20px 0;padding: 10px 15px; width: 100%; border-radius: 30px;
+}
